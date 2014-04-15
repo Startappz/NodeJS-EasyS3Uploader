@@ -51,7 +51,7 @@ s3.saveData("This is test",
         }
     });
 
-//Upload Multiple files At once
+//Upload mutiple files at once
 var resources = [{
     "src": __dirname + "/file.txt",
     "dest": "/test/file3.txt",

@@ -1,7 +1,7 @@
 EasyS3Uploader
 ==============
 
-This is an elegant for knox npm package to make uploading to Amazon S3 easier
+This is simple and  elegant wrapper for [knox](https://github.com/LearnBoost/knox) npm package to make it much easier and more fun to upload to Amazon S3 .
 
 ### Features
  + Upload file
@@ -10,6 +10,12 @@ This is an elegant for knox npm package to make uploading to Amazon S3 easier
  + Delete File
  
 ### How to use 
+
+#### Installation
+
+```javascript
+npm install easys3uploader
+```
 
 #### initilaizaiton
 
@@ -54,11 +60,11 @@ s3.saveData("This is test",
 ```
 
 
-#### Upload Multiple files 
+#### Upload Multiple Files 
 
 
 ```javascript
-// Prepate resouces to be uploaded 
+// Prepare resouces to be uploaded 
 var resources = [{
     "src": __dirname + "/file.txt",
     "dest": "/test/file3.txt",
