@@ -19,7 +19,7 @@ var s3 = new EasyS3Uploader(
     "PLACE_YOUR_S3_SECRET_KEY_HERE",
     "PLACE_YOUR_BUCKET_HERE"
 );
-``
+```
 
 #### Upload file
 
@@ -35,7 +35,7 @@ s3.saveFile(__dirname + "/file.txt",
             console.error(err);
         }
     });
-``
+```
 
 #### Upload Data
 
@@ -51,7 +51,7 @@ s3.saveData("This is test",
             console.error(err);
         }
     });
-``
+```
 
 
 #### Upload Multiple files 
@@ -76,7 +76,7 @@ var resources = [{
         console.error(err);
     }
 });
-``
+```
 
 ### Test
 
@@ -84,5 +84,5 @@ A test script is prepared at tests/test.js, you need to provide your s3 access k
 
 ```javascript
 npm test
-``
+```
 
