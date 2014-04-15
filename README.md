@@ -36,6 +36,7 @@ s3.saveFile(__dirname + "/file.txt",
         }
     });
 ``
+
 #### Upload Data
 
 ```javascript
@@ -51,6 +52,7 @@ s3.saveData("This is test",
         }
     });
 ``
+
 
 #### Upload Multiple files 
 
@@ -75,6 +77,7 @@ var resources = [{
     }
 });
 ``
+
 ### Test
 
 A test script is prepared at tests/test.js, you need to provide your s3 access key , secret key and bucket into that file , to run the test :
