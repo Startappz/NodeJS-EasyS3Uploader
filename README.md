@@ -1,4 +1,4 @@
-EasyS3Uploader
+Nodejs-EasyS3Uploader
 ==============
 
 This is simple and  elegant wrapper for [knox](https://github.com/LearnBoost/knox) npm package to make it much easier and more fun to upload to Amazon S3.
