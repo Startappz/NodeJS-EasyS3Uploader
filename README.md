@@ -74,7 +74,7 @@ var resources = [{
     "dest": "/test/file4.txt",
     "public": true
 }];
-// Upload 
+//Upload 
     s3.saveMultiple(resources, function (err, result) {
     if (!err) {
         console.log("Uploading Mutiple file/data ", result);
