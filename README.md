@@ -13,7 +13,7 @@ This is simple and  elegant wrapper for [knox](https://github.com/LearnBoost/kno
 
 #### Installation
 
-```javascript
+```
 npm install easys3uploader
 ```
 

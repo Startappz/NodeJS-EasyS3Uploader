@@ -1,6 +1,6 @@
 {
     "name": "easys3uploader",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "This is simple and elegant wrapper for [knox] npm package to make it much easier and more fun to upload to Amazon S3 .",
     "main": "./lib/index",
     "scripts": {
